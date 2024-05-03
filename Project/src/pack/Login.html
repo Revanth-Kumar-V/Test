@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MABSQUARE</title>
+<link rel="icon" href="favicon.png">
+
+<style>
+body {
+  background-image: url('login.jpg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 120%;
+}
+.LOGIN-PAGE{
+width: 340px;
+height: 340px;
+background: rgba(0,0,0,0.5);
+color: #fff;
+top: 70%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing:LOGIN-PAGE;
+}
+
+#btn
+{
+background-color:white;
+color:gold;
+height:30px;
+width:100px;
+border-radius:25px;
+}
+input{
+border-radius:4px;
+}
+
+</style>
+
+
+</head>
+<body>
+<div class="LOGIN-PAGE">
+<tr><td><h1>LOGIN PAGE</h1></td></tr>
+
+<form action="Login" method="post">
+<table align="center">
+
+<tr><td>USERMAIL:</td><td><input type="email" Name="email" required autofocus></td></tr>
+<tr><td>PASSWORD:</td><td><input type="password" name="password" required autofocus></td></tr><br>
+<tr><td></td><td><input type="submit" value="SUBMIT"id="btn" autofocus></td></tr><br>
+<tr><td align="center" colspan="2"><a href ="ViewServlet">
+<img src="MySQL.png" alt="database" height="30" width="100">
+</td></tr>
+<tr><td align="center" colspan="2"><p><a href ="interface.html">
+<img src="register1.png" alt="database" height="80" width="100">
+</a></tr></td>
+
+</div>
+</table>
+</form> 
+
+</body>
+</html>
